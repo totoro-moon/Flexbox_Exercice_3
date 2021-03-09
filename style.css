@@ -1,0 +1,19 @@
+.round{
+  margin-top: 1%;
+  width: 10%;
+  height: 100px;
+  background-color: lightgrey;
+  border-radius: 50%;
+}
+.container{
+  display: flex;
+  /* gere le comportement si les élements prennent plus de place sur l'axe et permet de passer à la ligne */
+  flex-wrap: wrap;
+}
+.square{
+  margin-left: 1%;
+  margin-top: 1%;
+  width: 75%;
+  height: 100px;
+  background-color: lightgreen;
+}
